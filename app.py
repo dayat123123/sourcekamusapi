@@ -1,18 +1,18 @@
 from flask import Flask, jsonify, request
-from flask_mysqldb import MySQL
-from googletrans import Translator
-import json
-translator = Translator(service_urls=['translate.googleapis.com'])
-import mysql.connector
+# from flask_mysqldb import MySQL
+# from googletrans import Translator
+# import json
+# translator = Translator(service_urls=['translate.googleapis.com'])
+# import mysql.connector
 app = Flask(__name__)
-app.config['MYSQL_HOST'] = 'sql6.freemysqlhosting.net'
-app.config['MYSQL_USER'] = 'sql6513279'
-app.config['MYSQL_PASSWORD'] = '71TDCiXpb4'
-app.config['MYSQL_DB'] = 'sql6513279'
-mysql = MySQL(app)
+# app.config['MYSQL_HOST'] = 'sql6.freemysqlhosting.net'
+# app.config['MYSQL_USER'] = 'sql6513279'
+# app.config['MYSQL_PASSWORD'] = '71TDCiXpb4'
+# app.config['MYSQL_DB'] = 'sql6513279'
+# mysql = MySQL(app)
 # percoobaan penambahan lagi ya. 
 #declared an empty variable for reassignment
-response = ''
+# response = ''
 
 #creating the instance of our flask application
 # percobaan update github
